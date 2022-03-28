@@ -1,0 +1,13 @@
+[2022-03-24T15:31:12+08:00][error] [2]Undefined property: think\template\driver\File::$baseUrl
+[2022-03-24T15:31:29+08:00][error] [0]Call to undefined method think\template\driver\File::url()
+[2022-03-24T15:32:27+08:00][error] [0]Call to undefined method think\template\driver\File::url()
+[2022-03-24T15:33:58+08:00][error] [0]Call to undefined method think\template\driver\File::url()
+[2022-03-24T15:34:09+08:00][error] [0]Call to undefined method think\template\driver\File::url()
+[2022-03-24T16:04:52+08:00][error] [0]password_hash() expects at least 2 arguments, 1 given
+[2022-03-24T17:18:45+08:00][error] [0]Call to undefined method think\Db::query()
+[2022-03-24T17:19:49+08:00][sql] CONNECT:[ UseTime:0.250004s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-24T17:19:49+08:00][sql] select * from bs_username where userid = 'admin' [ RunTime:0.239409s ]
+[2022-03-24T17:19:49+08:00][error] [0]htmlentities(): Argument #1 ($string) must be of type string, array given
+[2022-03-24T17:24:31+08:00][sql] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-24T17:24:31+08:00][sql] select * from bs_username where userid = 'admin' [ RunTime:0.000584s ]
+[2022-03-24T17:24:31+08:00][error] [0]htmlentities(): Argument #1 ($string) must be of type string, array given

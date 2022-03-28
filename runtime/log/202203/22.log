@@ -1,0 +1,5 @@
+[2022-03-22T11:06:01+08:00][error] [0]Call to undefined method app\controller\Index::fetch()
+[2022-03-22T11:12:17+08:00][error] [0]think\View::fetch(): Argument #1 ($template) must be of type string, null given
+[2022-03-22T11:13:31+08:00][error] [0]think\View::fetch(): Argument #1 ($template) must be of type string, null given
+[2022-03-22T11:15:28+08:00][error] [0]think\View::fetch(): Argument #1 ($template) must be of type string, null given
+[2022-03-22T11:16:19+08:00][error] [0]think\View::fetch(): Argument #1 ($template) must be of type string, null given

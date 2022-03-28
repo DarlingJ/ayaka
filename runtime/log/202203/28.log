@@ -1,0 +1,90 @@
+[2022-03-28T14:08:15+08:00][sql] CONNECT:[ UseTime:0.007865s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:08:15+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.195073s ]
+[2022-03-28T14:09:30+08:00][sql] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:09:30+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000522s ]
+[2022-03-28T14:20:35+08:00][sql] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:20:35+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.139723s ]
+[2022-03-28T14:25:37+08:00][sql] CONNECT:[ UseTime:0.000978s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:25:37+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.012261s ]
+[2022-03-28T14:26:05+08:00][sql] CONNECT:[ UseTime:0.000900s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:26:05+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.012816s ]
+[2022-03-28T14:28:31+08:00][sql] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:28:31+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.014407s ]
+[2022-03-28T14:55:10+08:00][sql] CONNECT:[ UseTime:0.000962s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:55:10+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_name'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.016545s ]
+[2022-03-28T14:55:16+08:00][sql] CONNECT:[ UseTime:0.000870s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:55:16+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.012081s ]
+[2022-03-28T14:55:18+08:00][error] [8192]json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+[2022-03-28T14:56:15+08:00][sql] CONNECT:[ UseTime:0.001089s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:56:15+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000802s ]
+[2022-03-28T14:56:25+08:00][sql] CONNECT:[ UseTime:0.000906s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T14:56:25+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.013311s ]
+[2022-03-28T14:56:27+08:00][error] [8192]json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+[2022-03-28T15:00:01+08:00][sql] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T15:00:01+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000750s ]
+[2022-03-28T15:00:13+08:00][sql] CONNECT:[ UseTime:0.016707s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T15:00:13+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.018285s ]
+[2022-03-28T15:09:03+08:00][sql] CONNECT:[ UseTime:0.000836s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-28T15:09:03+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000556s ]

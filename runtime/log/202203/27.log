@@ -1,0 +1,84 @@
+[2022-03-27T17:43:19+08:00][sql] CONNECT:[ UseTime:0.107121s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T17:43:19+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.036520s ]
+[2022-03-27T17:44:02+08:00][sql] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T17:44:02+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000555s ]
+[2022-03-27T18:21:29+08:00][sql] CONNECT:[ UseTime:0.022064s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:21:29+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_user'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.021263s ]
+[2022-03-27T18:21:57+08:00][sql] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:21:57+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000570s ]
+[2022-03-27T18:22:09+08:00][sql] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:22:09+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_name'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.010408s ]
+[2022-03-27T18:22:51+08:00][sql] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:22:51+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.010297s ]
+[2022-03-27T18:22:57+08:00][sql] CONNECT:[ UseTime:0.000881s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:22:57+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_usernam'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.010751s ]
+[2022-03-27T18:44:34+08:00][sql] CONNECT:[ UseTime:0.001013s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:44:34+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.010979s ]
+[2022-03-27T18:44:45+08:00][sql] CONNECT:[ UseTime:0.000920s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:44:45+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.008886s ]
+[2022-03-27T18:45:20+08:00][sql] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T18:45:20+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.010613s ]
+[2022-03-27T19:06:43+08:00][sql] CONNECT:[ UseTime:0.001058s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T19:06:43+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.010246s ]
+[2022-03-27T19:07:34+08:00][sql] CONNECT:[ UseTime:0.001326s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T19:07:34+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.039856s ]
+[2022-03-27T19:17:57+08:00][sql] CONNECT:[ UseTime:0.001007s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-27T19:17:57+08:00][sql] SELECT 
+                        c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT
+                    FROM information_schema.columns AS c
+                        WHERE table_name = 'bs_username'
+                    ORDER BY ORDINAL_POSITION [ RunTime:0.009274s ]

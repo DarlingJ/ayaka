@@ -1,0 +1,278 @@
+[2022-03-25T14:03:03+08:00][sql] CONNECT:[ UseTime:0.123151s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T14:03:03+08:00][error] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ayaka.bs_user' doesn't exist
+[2022-03-25T14:03:35+08:00][sql] CONNECT:[ UseTime:0.000908s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T14:03:35+08:00][error] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ayaka.bs_user' doesn't exist
+[2022-03-25T16:19:49+08:00][sql] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:19:49+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000727s ]
+[2022-03-25T16:19:49+08:00][error] [2]Undefined array key "URL"
+[2022-03-25T16:20:02+08:00][sql] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:20:02+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000517s ]
+[2022-03-25T16:20:02+08:00][error] [2]Undefined array key "URL"
+[2022-03-25T16:20:52+08:00][sql] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:20:52+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000533s ]
+[2022-03-25T16:24:12+08:00][sql] CONNECT:[ UseTime:0.001125s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:24:12+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000646s ]
+[2022-03-25T16:29:50+08:00][sql] CONNECT:[ UseTime:0.001669s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:29:50+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.001552s ]
+[2022-03-25T16:30:06+08:00][sql] CONNECT:[ UseTime:0.003548s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:30:06+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000880s ]
+[2022-03-25T16:31:15+08:00][sql] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:31:15+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000641s ]
+[2022-03-25T16:31:58+08:00][sql] CONNECT:[ UseTime:0.000803s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:31:58+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000614s ]
+[2022-03-25T16:38:35+08:00][sql] CONNECT:[ UseTime:0.000951s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:38:35+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000646s ]
+[2022-03-25T16:38:53+08:00][sql] CONNECT:[ UseTime:0.000710s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:38:53+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000520s ]
+[2022-03-25T16:41:38+08:00][sql] CONNECT:[ UseTime:0.001749s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:41:38+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000755s ]
+[2022-03-25T16:43:20+08:00][sql] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:43:20+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000632s ]
+[2022-03-25T16:44:06+08:00][sql] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:44:06+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000590s ]
+[2022-03-25T16:44:17+08:00][sql] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:44:17+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000598s ]
+[2022-03-25T16:44:57+08:00][sql] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:44:57+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000940s ]
+[2022-03-25T16:45:41+08:00][sql] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:45:41+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000564s ]
+[2022-03-25T16:45:44+08:00][sql] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:45:44+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000749s ]
+[2022-03-25T16:46:57+08:00][sql] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:46:57+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000541s ]
+[2022-03-25T16:49:42+08:00][sql] CONNECT:[ UseTime:0.000920s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:49:42+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000663s ]
+[2022-03-25T16:53:20+08:00][sql] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:53:20+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000583s ]
+[2022-03-25T16:54:18+08:00][sql] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:54:18+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000585s ]
+[2022-03-25T16:54:57+08:00][sql] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T16:54:57+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000547s ]
+[2022-03-25T17:03:19+08:00][sql] CONNECT:[ UseTime:0.001789s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:03:19+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000877s ]
+[2022-03-25T17:08:05+08:00][sql] CONNECT:[ UseTime:0.001167s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:08:05+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000681s ]
+[2022-03-25T17:10:23+08:00][sql] CONNECT:[ UseTime:0.002618s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:10:23+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000805s ]
+[2022-03-25T17:13:30+08:00][sql] CONNECT:[ UseTime:0.000817s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:13:30+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000537s ]
+[2022-03-25T17:15:27+08:00][sql] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:15:27+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000831s ]
+[2022-03-25T17:16:34+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:16:34+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000519s ]
+[2022-03-25T17:16:50+08:00][sql] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:16:50+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000675s ]
+[2022-03-25T17:17:24+08:00][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:17:24+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000506s ]
+[2022-03-25T17:17:49+08:00][sql] CONNECT:[ UseTime:0.000810s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:17:49+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000559s ]
+[2022-03-25T17:19:44+08:00][sql] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:19:44+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000566s ]
+[2022-03-25T17:20:11+08:00][sql] CONNECT:[ UseTime:0.000760s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:20:11+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000672s ]
+[2022-03-25T17:21:22+08:00][sql] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;port=3306;dbname=ayaka;charset=utf8
+[2022-03-25T17:21:22+08:00][sql] SELECT 
+                        bur.PROID,bpg.PRONAME,
+                        bpg.GROUPID,bpg.PATH,bpn.GROUPNAME 
+                    FROM BS_USERROLE bur
+                        LEFT JOIN BS_PROGRAM bpg ON bur.PROID = bpg.PROID
+                        LEFT JOIN BS_PRONAME bpn ON bpg.GROUPID = bpn.GROUPID
+                    WHERE bur.USERID = 'admin' [ RunTime:0.000648s ]
