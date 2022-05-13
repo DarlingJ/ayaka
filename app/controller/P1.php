@@ -27,6 +27,9 @@ class P1 extends BaseController
         }
         return json_encode($res);
     }
+    /**
+     * 没有备份的后果
+     */
     public function download()
     {
         $data = json_decode($this->request->param("jsondata"),true);
