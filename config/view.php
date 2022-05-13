@@ -29,6 +29,8 @@ return [
         '_IMAGE_' => '.././static/images',
         '_JSINDEX_' => 'static/js',
         '_CSSINDEX_' => 'static/css',
+        '_VENDORINDEX_' => 'static/vendor',
+        '_IMGINDEX_' => 'static/images',
         '_LIVE2D_' => 'static/live2d'
     ],
 ];
