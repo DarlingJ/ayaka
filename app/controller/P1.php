@@ -34,9 +34,47 @@ class P1 extends BaseController
     {
         $data = json_decode($this->request->param("jsondata"),true);
         $key = $this->request->param("key");
-        var_dump($data);
-        echo "<br/>";
-        echo $key;
+        //为生成的VO先命名
+        $fileName = $key."VO";
+        $constructTxt = '
+class '.$fileName.'{
+	function __construct($value = null) {
+		if ($value) {
+';
+        $otherTxt = "";
+        foreach ($data as $eachData)
+        {
+        	$constructTxt .= '
+			$this->'.$eachData["COLUMN_NAME"].' = trim ( $value ["'.$eachData["COLUMN_NAME"].'"] ) ?? "";';
+        	$otherTxt .= '	
+	/**
+	 * '.$eachData["COLUMN_COMMENT"].'
+	 *
+	 * @var '.$eachData["COLUMN_TYPE"].'
+	 */
+	public $'.$eachData["COLUMN_NAME"].';
+';
+        }
+        $voTxt = <<<EOF
+<?php
+$constructTxt
+		}
+	}
+$otherTxt
+}
+?>
+EOF;
+        $fn = $fileName.".php";
+        !$handle = fopen($fn, 'w');
+        fwrite($handle, $voTxt);
+        fclose($handle);
+        header("Cache-Control: public");
+        header("Content-Description: File Transfer");
+        header("Content-Length: ". filesize($fn).";");
+        header("Content-Disposition: attachment; filename=$fn");
+        header("Content-Type: application/octet-stream; ");
+        header("Content-Transfer-Encoding: binary");
+        @unlink($fn);
         exit;
     }
 }
